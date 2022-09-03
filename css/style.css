@@ -6,7 +6,7 @@
    --white:rgb(255, 255, 255);
    --light-black:#777;
    --light-white:#fff9;
-   --dark-bg:rgba(11, 70, 164, 0.7);
+   --dark-bg:rgb(255, 69, 69);
    --light-bg:#eee;
    --border:.1rem solid var(--black);
    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
@@ -73,7 +73,7 @@ section{
    margin-top: 1rem;
    color:var(--white);
    font-size: 1.9rem;
-   padding:1.5rem 4rem;
+   padding:1rem 3rem;
    border-radius: 5px;
    cursor: pointer;
 }
@@ -81,6 +81,22 @@ section{
 .btn:hover{
    background: var(--main-color);
 }
+.btnn{
+   display: inline-block;
+   background: var(--black);
+   margin-top: 1rem;
+   color:var(--white);
+   font-size: 2.2rem;
+   padding:1rem 6rem;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.btnn:hover{
+   background: var(--main-color);
+} 
+
+
 
 .heading-title{
    text-align: center;
@@ -141,10 +157,10 @@ section{
    min-height: 70rem;
 }
 
-/* .home .slide .content{
-   width: 85rem;
-   display: none;
-} */
+.home .slide .content{
+   width: 100rem;
+   
+} 
 
 .home .swiper-slide-active .content{
    display: inline-block;
@@ -152,7 +168,7 @@ section{
 
 .home .slide .content span{
    display: block;
-   font-size: 3.5rem;
+   font-size: 4rem;
    color: var(--light-white);
    padding-bottom: 1rem;
    animation:fadeIn .2s linear backwards .2s;
