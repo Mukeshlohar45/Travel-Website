@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root{
-   --main-color:#867385;
-   --black:rgb(255, 69, 69);
+   --main-color:#232228;
+   --black:rgb(251, 80, 80);
    --white:rgb(255, 255, 255);
    --light-black:#777;
    --light-white:#fff9;
-   --dark-bg:rgb(255, 69, 69);
+   --dark-bg:rgb(251, 80, 80);
    --light-bg:#eee;
    --border:.1rem solid var(--black);
    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
@@ -79,7 +79,7 @@ section{
 }
 
 .btn:hover{
-   background: var(--main-color);
+   background: rgb(217, 39, 39);
 }
 .btnn{
    display: inline-block;
@@ -93,7 +93,7 @@ section{
 }
 
 .btnn:hover{
-   background: var(--main-color);
+   background: rgb(217, 39, 39);
 } 
 
 
@@ -122,7 +122,7 @@ section{
 .header .logo{
    font-size: 3rem;
    color: black;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header .navbar a{
@@ -568,7 +568,7 @@ section{
 
 
 .footer{
-   background: url(../images/footer-bg.jpg) no-repeat;
+   background-color: #232228;
    background-size: cover;
    background-position: center;
 }
@@ -576,7 +576,7 @@ section{
 .footer .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-   gap: 3rem;
+   gap: 3.5rem;
 }
 
 .footer .box-container .box h3{
@@ -614,19 +614,6 @@ section{
 .footer .credit span{
    color:var(--main-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
