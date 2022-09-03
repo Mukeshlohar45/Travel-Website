@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root{
-   --main-color:#000000;
-   --black:#222;
+   --main-color:#867385;
+   --black:rgb(255, 69, 69);
    --white:rgb(255, 255, 255);
    --light-black:#777;
    --light-white:#fff9;
-   --dark-bg:rgba(0,0,0,.7);
+   --dark-bg:rgba(11, 70, 164, 0.7);
    --light-bg:#eee;
    --border:.1rem solid var(--black);
    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
@@ -72,8 +72,9 @@ section{
    background: var(--black);
    margin-top: 1rem;
    color:var(--white);
-   font-size: 1.7rem;
-   padding:1rem 3rem;
+   font-size: 1.9rem;
+   padding:1.5rem 4rem;
+   border-radius: 5px;
    cursor: pointer;
 }
 
@@ -93,18 +94,19 @@ section{
    position: sticky;
    top:0; left:0; right:0;
    z-index: 1000;
-   background-color: var(--white);
+   background-color: #fff;
    display: flex;
-   padding-top: 2rem;
-   padding-bottom: 2rem;
+   padding-top: 1.3rem;
+   padding-bottom: 1rem;
    box-shadow: var(--box-shadow);
    align-items: center;
    justify-content: space-between;
 }
 
 .header .logo{
-   font-size: 2.5rem;
-   color:var(--black);
+   font-size: 3rem;
+   color: black;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header .navbar a{
@@ -124,7 +126,7 @@ section{
    display: none;
 }
 
-.home{
+ .home{
    padding:0;
 }
 
@@ -136,13 +138,13 @@ section{
    justify-content: center;
    background-size: cover !important;
    background-position: center !important;
-   min-height: 60rem;
+   min-height: 70rem;
 }
 
-.home .slide .content{
+/* .home .slide .content{
    width: 85rem;
    display: none;
-}
+} */
 
 .home .swiper-slide-active .content{
    display: inline-block;
@@ -150,7 +152,7 @@ section{
 
 .home .slide .content span{
    display: block;
-   font-size: 2.2rem;
+   font-size: 3.5rem;
    color: var(--light-white);
    padding-bottom: 1rem;
    animation:fadeIn .2s linear backwards .2s;
@@ -195,7 +197,7 @@ section{
 
 .home .swiper-button-prev{
    right: 7rem;
-}
+} 
 
 .services .box-container{
    display: grid;
