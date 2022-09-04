@@ -2,7 +2,7 @@
 
 :root{
    --main-color:#232228;
-   --black:rgb(251, 80, 80);
+   --black:rgb(254, 72, 72);
    --white:rgb(255, 255, 255);
    --light-black:#777;
    --light-white:#fff9;
@@ -557,15 +557,6 @@ section{
 .booking .book-form .btn{
    margin-top: 2rem;
 }
-
-
-
-
-
-
-
-
-
 
 .footer{
    background-color: #232228;
